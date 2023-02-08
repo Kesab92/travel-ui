@@ -44,7 +44,13 @@ h1 {
   max-width: 400px;
 }
 
+.s-Product__info {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 .s-Button__availibility {
   background-color: #810f2e;
-  border-color: #760d2a;
+  border: none;
+  border-radius: 4px;
+  color: white;
 }
